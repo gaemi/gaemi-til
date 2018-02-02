@@ -1,5 +1,3 @@
-
-
 ### AcquisitionMode
 
 JDBC 커넥션 획득 방법을 지정합니다.
@@ -8,7 +6,7 @@ JDBC 커넥션 획득 방법을 지정합니다.
 
 `hibernate.connection.acquisition_mode` 를 지정하는 형태로 제어하면 됩니다.
 
-* **IMMEDIATELY** : 하이버네이트 세션이 열리면, 바로 커넥션을 획득합니다. 아래 언급할 ConnectionReleaseMode 를 우회하여 하이버네이트 세션이 닫힐때까지 커넥션을 유지합니다.
+* **IMMEDIATELY** : 하이버네이트 세션이 열리면, 바로 커넥션을 획득합니다. 아래 언급할 ConnectionReleaseMode 를 우회하여 하이버네이트 세션이 닫힐때까지 커넥션을 유지합니다. \(즉 ReleaseMode 는 ON\_CLOSE 로 동작한다고 보시면 됩니다.\)
 * **AS\_NEEDED** : 기존에 제공되던 방식으로, 필요한 시점에 커넥션을 획득합니다.
 
 ### ReleaseMode
