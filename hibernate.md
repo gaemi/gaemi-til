@@ -1,3 +1,9 @@
+# 공식가이드
+
+* 5.1 : http://docs.jboss.org/hibernate/orm/5.2/userguide/html\_single/Hibernate\_User\_Guide.html
+
+# Configuration
+
 ### AcquisitionMode
 
 JDBC 커넥션 획득 방법을 지정합니다.
