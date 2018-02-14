@@ -6,6 +6,6 @@
 * [하이버네이트 \(Hibernate\)](hibernate.md)
 * [자바 \(Java\)](c790-bc14-java.md)
 * [HTML](html.md)
-* [터미널 \(Terminal\)](d130-bbf8-b110-terminal.md)
+* [Terminal](d130-bbf8-b110-terminal.md)
 * [Node.js](nodejs.md)
 
