@@ -7,5 +7,5 @@
 * [Node.js](nodejs.md)
 * [Terminal](terminal.md)
 * [Hibernate](hibernate.md)
-* Java
+* [Java](java.md)
 

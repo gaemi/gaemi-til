@@ -18,14 +18,14 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh |
 
 ```bash
 $ nvm install node           // 최신버전의 Node.js 설치
-$ nvm install v4.4.0         // 특정 버전의 Node.js 설치
-$ nvm uninstall v4.4.0       // 특정 버전의 Node.js 삭제
+$ nvm install v8.9.0         // 특정 버전의 Node.js 설치
+$ nvm uninstall v8.9.0       // 특정 버전의 Node.js 삭제
 
 $ nvm ls                     // 설치된 Node.js 버전 확인
 $ nvm ls-remote              // 설치 가능한 Node.js 버전 확인
 
-$ nvm use v4.4.0             // 특정 버전의 Node.js 사용
-$ nvm alias default v4.4.0   // 기본으로 사용할 Node.js 버전 지정
+$ nvm use v8.9.0             // 특정 버전의 Node.js 사용
+$ nvm alias default v8.9.0   // 기본으로 사용할 Node.js 버전 지정
 ```
 
 ### .nvmrc
@@ -35,7 +35,7 @@ $ nvm alias default v4.4.0   // 기본으로 사용할 Node.js 버전 지정
 Node.js 버전이 입력된 이 파일을 생성하면, 다른 사용자들도 아래 명령어 입력시 동일한 버전의 Node.js 를 사용할 수 있다.
 
 ```bash
-$ nvm use                    // .nvmrc 에 지정된 버전의 Node.js 사용 
+$ nvm use                    // .nvmrc 에 지정된 버전의 Node.js 사용
 ```
 
 # 패키지 매니저
