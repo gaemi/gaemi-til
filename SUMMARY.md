@@ -8,4 +8,6 @@
 * [Terminal](terminal.md)
 * [Hibernate](hibernate.md)
 * [Java](java.md)
+* [React](react.md)
+* [Github](github.md)
 
