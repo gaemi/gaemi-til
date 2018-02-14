@@ -9,6 +9,8 @@
 # 좋은 자료들
 
 * [https://github.com/reactkr/learn-react-in-korean](https://github.com/reactkr/learn-react-in-korean "한국어로 배우는 리액트")
+* https://jaeyeophan.github.io/2018/01/02/React-tips-for-beginners
+* https://github.com/Microsoft/TypeScript-React-Starter
 
 
 
