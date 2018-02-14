@@ -1,5 +1,3 @@
-
-
 # 버전 매니저
 
 Node.js 의 버전 매니저.
@@ -8,7 +6,7 @@ Node.js 의 버전 매니저.
 
 ## NVM
 
-https://github.com/creationix/nvm
+[https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 
 ### 설치방법
 
@@ -30,13 +28,23 @@ $ nvm use v4.4.0             // 특정 버전의 Node.js 사용
 $ nvm alias default v4.4.0   // 기본으로 사용할 Node.js 버전 지정
 ```
 
+### .nvmrc
+
+프로젝트 에 사용될 Node.js 버전을 지정할 수 있다.
+
+Node.js 버전이 입력된 이 파일을 생성하면, 다른 사용자들도 아래 명령어 입력시 동일한 버전의 Node.js 를 사용할 수 있다.
+
+```bash
+$ nvm use                    // .nvmrc 에 지정된 버전의 Node.js 사용 
+```
+
 # 패키지 매니저
 
 패키지를 사용하는 과정에서 발생하는 여러 복잡한 상황 \(다운로드, 설치, 빌드, 업그레이드, 의존성관리 등\) 을 처리하기 위한 도움이 되는 소프트웨어
 
 ## npm
 
-https://www.npmjs.com
+[https://www.npmjs.com](https://www.npmjs.com)
 
 가장 많이 보편적으로 사용되고 있는 패키지 매니저.
 
@@ -44,15 +52,9 @@ https://www.npmjs.com
 
 ## Yarn
 
-https://yarnpkg.com
+[https://yarnpkg.com](https://yarnpkg.com)
 
 페이스북에서 만든 패키지 매니저.
 
 npm 의 여러 단점들을 보완하여 만들어졌다.
-
-
-
-
-
-
 
